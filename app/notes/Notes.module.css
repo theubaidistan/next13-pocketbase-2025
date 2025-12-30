@@ -1,0 +1,175 @@
+.pageTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.grid {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.action {
+  text-align: left;
+  color: dodgerblue;
+}
+
+.note {
+  height: auto;
+  width: 200px;
+  padding: 0.2rem 1rem;
+  margin: 0.5rem;
+  background: #ffff00;
+  box-shadow: 4px 4px 8px 1px #00000075;
+  border-radius: 2px;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.pageTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.note {
+  height: auto;
+  width: 200px;
+  padding: 0.25rem;
+  border-radius: 2px;
+}
+
+.title {
+  padding: 0.1rem;
+  font-size: 1rem;
+}
+
+.content {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.created {
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+
+.action {
+  text-align: left;
+  color: dodgerblue;
+}
+
+/*  */
+/* Notes.module.css */
+
+.pageTitle {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.grid {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  max-width: 1000px;
+}
+
+.note {
+  width: 220px;
+  padding: 1rem;
+  background: linear-gradient(135deg, #fef08a, #fde68a);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.note:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #111;
+}
+
+.content {
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.created {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #666;
+}
+
+.action {
+  text-align: left;
+  color: dodgerblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 400px;
+}
+
+form h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #667eea;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
