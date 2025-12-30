@@ -127,7 +127,7 @@
   cursor: pointer;
 }
 
-form {
+.form {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -135,15 +135,15 @@ form {
   max-width: 400px;
 }
 
-form h3 {
+.form h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: #222;
 }
 
-form input,
-form textarea {
+.form input,
+.form textarea {
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -154,12 +154,12 @@ form textarea {
   transition: border-color 0.2s;
 }
 
-form input:focus,
-form textarea:focus {
+.form input:focus,
+.form textarea:focus {
   border-color: #667eea;
 }
 
-form button {
+.form button {
   padding: 0.5rem 1rem;
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: #fff;
@@ -170,6 +170,6 @@ form button {
   transition: opacity 0.2s;
 }
 
-form button:hover {
+.form button:hover {
   opacity: 0.9;
 }
